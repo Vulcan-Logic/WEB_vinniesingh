@@ -12,139 +12,622 @@
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&&family=Oswald&family=Open+Sans&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container-fluid" id="bannerLayer">
-        <div class="row" id="bannerLayerRow">
-            <div class="d-none d-sm-block col-sm-1"></div>
-            <div class="col-12 col-sm-4 col-lg-3" id="bannerMainCol">
-                <div class="row" id="bannerHeading">
-                    <div class="col-12" id="bannerHeadingCol">
-                       <h1 class="text-center hBannerCol"> VINEET SINGH</h1>
-                       <hr class="hRule" />
-                       <h2 class="text-center hBannerCol nickName"> Vinnie</h2>
-                    </div>
-                </div>
-                <div class="row" id="bannerMenuRow">
-                    <div class="col-12 col-sm-6 col-xl-3" id="bannerMenuCol">
-                        <ul>
-                            <li>
-                                <a href="#"> Profile </a>
-                            </li>
-                            <li>
-                                <a href="#"> Portfolio </a>
-                            </li>
-                            <li>
-                                <a href="#"> Education </a>
-                            </li>
-                            <li>
-                                <a href="#"> Contact </a>
-                            </li>
-                        </ul>
-                     </div>
-                </div>
-            </div>
-            <div class="col-12 col-sm-7 col-lg-8" id="bannerOtherCol">
-<!--            <div class="row" id="bannerMenuRow">
-                    <div class="d-none d-lg-block col-lg-2"></div>
-                    <div class="col-12 col-lg-8">
-                        <div class="row" id="bannerMenu">
-                            <div class="col-12 d-flex justify-content-center">
-                                <ul type="none">
+<div class="container-fluid">
+    <div class="row" id="mainRow">
+        <div class="col-12" id="mainCol">
+            <div class="banner">
+                <div class="row" id="bannerRow">
+                    <div class="d-none d-sm-block col-sm-3"></div>
+                    <div class="col-12 col-sm-9" id="bannerImageCol">
+                        <div class="row" id="bannerHeading">
+                            <div class="col-12" id="bannerHeadingCol">
+                                <h1 class="text-center hBannerCol"> VINEET SINGH</h1>
+                                <hr class="hRule" />
+                                <h2 class="text-center hBannerCol nickName"> Vinnie</h2>
+                            </div>
+                        </div>
+                        <div class="row" id="bannerMenuRow">
+                            <div class="col-12 col-sm-6 col-xl-3" id="bannerMenuCol">
+                                <ul>
                                     <li>
-                                        Profile
+                                        <a  href="#secProfile"> Profile </a>
                                     </li>
                                     <li>
-                                        Portfolio
+                                        <a href="#secPortfolio"> Portfolio </a>
                                     </li>
                                     <li>
-                                        Education
+                                        <a class="active" href="#secEducation"> Education </a>
                                     </li>
                                     <li>
-                                        Contact
+                                        <a href="#secContact"> Contact </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="d-none d-lg-block col-lg-2"></div>
-                </div> -->
-            </div> 
-        </div>
-    </div>
-    <div class="container-fluid" id="contentLayer">
-        <div class="row" id="contentMainRow">
-            <div class="d-none d-sm-block col-sm-5"></div>
-            <div class="d-block col-12 col-sm-7" id="contentMainCol">
-                <section id="secProfile">
-                    <div class="row sectionHead" >
-                        <div class="col-12">
-                            <h2 class="text-center hMainCol"> 
-                                Autodidact, Philomath, Epistemophile, Sophophile, 
-                                Manufacturing enthusiast and Software developer. 
-                            </h2>
-                            <h1 class="text-right hMainCol"> Profile</h1>
-                        </div>
+                </div>
+            </div>
+            <div class="contentMain">
+                <div class="row" id="contentMainRow">
+                    <div class="d-block col-12" >
+                        <section id="secProfile">
+                            <div class="row sectionHead" >
+                                <div class="col-12">
+                                    <h2 class="text-center hMainCol"> 
+                                        Autodidact, Philomath, Epistemophile, Sophophile, 
+                                        Manufacturing enthusiast and Software developer. 
+                                    </h2>
+                                    <h1 class="text-right hMainCol"> Profile</h1>
+                                </div>
+                            </div>
+                            <div class="row sectionCont">
+                                <div class="col-12">
+                                    <p> With a keen interest in computer programming, I started programming in 1988 and it has been a hobby 
+                                        ever since. The very first programs I wrote were written for a GW-BASIC interpreter running on an 
+                                        Intel-8088 PC. </p>
+                                    <p> Following my hobby, over the next few years, I learnt to programme in COBOL, dBase III+, VP Planner, 
+                                        Lotus 123, Oracle SQL + PL/SQL and C. My mathematics degree required me to learn PASCAL while yet 
+                                        another educational endeavour required me to learn MATLAB. </p>
+                                    <p> While working for my family business, I wrote small programmes in MS-ACCESS & MS-EXCEL to improve 
+                                        business functions and I used JAVA (SWING, JDBC) & PostgreSQL to wrtie a small application for 
+                                        inventory management. </p>
+                                    <p> I also developed an interest in using AUTOCAD for making and managing drawings for the business. 
+                                        I moved from AUTOCAD to Pro-Engineer to make 3D models, finally working with CATIA to make hundreds of 
+                                        3D models and drawings. Demonstrations by National Instruments in LABVIEW got me interested in that 
+                                        side of technology and I attended training courses for LABVIEW. Unfortunately, I have not been able to 
+                                        use LABVIEW for a project so far. </p>
+                                    <p> Having studied statistics, I developed an interest in data science which led me to the Data Science 
+                                        specialization programme conducted by John Hopkins University and Coursera. 
+                                        This gave me skills in R programming and using markdown for active documents. 
+                                        Data Science is incomplete without machine and deep learning, reading for which introduced me to 
+                                        Python, a programming language I have come to appreciate and admire. </p>
+                                    <p> I was accepted into the Junior Web Development programme coducted by Academy Xi and Generation 
+                                        Australia. This programme has been extremely beneficial for me. Apart from increasing my HTML5, CSS3, 
+                                        JavaScript and Agile skills, I have improved upon important behaviourial and soft skills like 
+                                        Communication, Collaboration, Adapatability and Personal Responsibility.
+                                    <p> A constant learner, I like doing online courses to increase my knowledge and I have many other 
+                                        certificates realted to programming (Flask, Node.js, React.js) from Udacity & Coursera.
+                                    <p> While I have been writing computer programs as a hobby for many years, 
+                                        it was only recently that I decided to become a fulltime software developer. With knowledge of all 
+                                        components in all layers of the software technology stack (browser/middleware/databases) required for 
+                                        complete web applications, I can write full stack web applications.</p>
+                                    <p> With some software engineering knowledge, I am familiar with Agile development methedologies and 
+                                        concepts like OOAD, MVC, MVVC etc. 
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="secPortfolio">
+                            <div class="row sectionHead">
+                                <div class="col-12">
+                                    <h1 class="text-right hMainCol"> Portfolio</h1>
+                                </div>
+                            </div>
+                            <div class="row sectionCont">
+                                <div class="col-12 secPortfolioCol">
+                                    <h3 class="secPortfolio">Web Development</h3>
+                                    <ol class="secPortfolio"> 
+                                        <li class="sectionCont">
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6">
+                                                        <h4>This website demonstrated my skills in using 
+                                                            HTML, CSS, JavaScript ES6, Bootstrap 4 and 
+                                                            lists the work I have done so far,my profile and contact information.
+                                                        </h4>
+                                                        <a href="#secPortfolio"> www.vinniesingh.me</a> 
+                                                </div>
+                                                <div class="col-12 col-sm-6 justify-content-center">
+                                                    <img id="gaCertificate" src="./assets/img/vsEducation.png" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Single Page website. </h4> 
+                                                            <p>Developed with HTML5, CSS3, Bootstrap4 & JavaScript ES6.</p>    
+                                                        </span>
+                                                    </div>
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Status.</h4> 
+                                                            <p>Currently under development</p>    
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="githubSpan">
+                                                            <h4>Repo:</h4> 
+                                                            <a href="https://github.com/Vulcan-Logic/WEB_vinniesingh">
+                                                                <img src="./assets/img/GitHub-Mark-120px-plus.png" 
+                                                                alt="Github Logo" width="45px" height="auto"/>
+                                                            </a>
+                                                        </span>
+                                                    </div>
+                                                    <hr />
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sectionCont">
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12 col-sm-6 justify-content-start">
+                                                        <h4>A website developed for Sam Electrocomm Pty Ltd. A company repairing 
+                                                            electronics and selling security cameras.</h4> 
+                                                            <a href="https://www.electronicsrepairhub.com.au/"> 
+                                                                www.electronicsrepairhub.com.au</a> 
+                                                </div>
+                                                <div class="col-12 col-sm-6 justify-content-center">
+                                                    <a href="https://www.electronicsrepairhub.com.au/"> 
+                                                        <img id="gaCertificate" src="./assets/img/electronicsrepairhub.png" />
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Multi-page website.</h4> 
+                                                            <p>Developed with HTML5, CSS3, Bootstrap4 & JavaScript ES6.</p>    
+                                                        </span>
+                                                    </div>
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Status.</h4> 
+                                                            <p>Being maintained.</p>    
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="githubSpan">
+                                                            <h4>Repo:</h4> 
+                                                            <a href="https://github.com/Vulcan-Logic/electronicsrepairhub">
+                                                                <img src="./assets/img/GitHub-Mark-120px-plus.png" 
+                                                                alt="Github Logo" width="45px" height="auto"/>
+                                                            </a>    
+                                                        </span>
+                                                    </div>
+                                                    <hr />
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sectionCont">
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6">
+                                                        <h4>A website developed for Sam Electrocomm Pty Ltd. A company repairing 
+                                                            electronics.</h4> 
+                                                            <a href="https://vulcan-logic.github.io/erh/"> 
+                                                                Demo</a> 
+                                                </div>
+                                                <div class="col-12 col-sm-6 justify-content-center">
+                                                    <a href="https://vulcan-logic.github.io/erh/"> 
+                                                        <img id="gaCertificate" src="./assets/img/erh.png" />
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Single page website.</h4> 
+                                                            <p>Developed with HTML5, CSS3, Bootstrap4 & JavaScript ES6.</p>    
+                                                        </span>
+                                                    </div>
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Status.</h4> 
+                                                            <p>Developed but never deployed as client changed his mind to 
+                                                                integrate another business into the same site.
+                                                            </p>    
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="githubSpan">
+                                                            <h4>Repo:</h4> 
+                                                            <a href="https://github.com/Vulcan-Logic/erh">
+                                                                <img src="./assets/img/GitHub-Mark-120px-plus.png" 
+                                                                alt="Github Logo" width="45px" height="auto"/>
+                                                            </a>    
+                                                        </span>
+                                                    </div>
+                                                    <hr />
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sectionCont">
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6">
+                                                        <h4>A website developed for the final project of Junior Web Development 
+                                                            Program conducted by Generation Australia in association with 
+                                                            Academy-Xi
+                                                        </h4> 
+                                                            <a href="https://vulcan-logic.github.io/JWD_final_project/"> 
+                                                                Demo</a> 
+                                                </div>
+                                                <div class="col-12 col-sm-6 justify-content-center">
+                                                    <a href="https://vulcan-logic.github.io/JWD_final_project/"> 
+                                                        <img id="gaCertificate" src="./assets/img/jwd.png" />
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Multi-page website.</h4> 
+                                                            <p>Developed with HTML5, CSS3, Bootstrap4 & JavaScript ES6.</p>    
+                                                        </span>
+                                                    </div>
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Status.</h4> 
+                                                            <p>Developed, submitted, graded and closed.
+                                                            </p>    
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="githubSpan">
+                                                            <h4>Repo:</h4> 
+                                                            <a href="https://github.com/Vulcan-Logic/JWD_final_project">
+                                                                <img src="./assets/img/GitHub-Mark-120px-plus.png" 
+                                                                alt="Github Logo" width="45px" height="auto"/>
+                                                            </a>    
+                                                        </span>
+                                                    </div>
+                                                    <hr />
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sectionCont">
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6 align-items-center">
+                                                        <h4>A website developed by following an online course on JavaScript ES6 
+                                                            by Jonas Schmedtmann on Udemy. 
+                                                        </h4> 
+                                                            <a href="https://vulcan-logic.github.io/WEB_Udemy_JavaScript/"> 
+                                                                Demo</a> 
+                                                </div>
+                                                <div class="col-12 col-sm-6 align-items-center justify-content-center">
+                                                    <a href="https://vulcan-logic.github.io/WEB_Udemy_JavaScript/"> 
+                                                        <img id="gaCertificate" src="./assets/img/udemy.png" />
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Single-page website.</h4> 
+                                                            <p>Developed using JavaScript ES6 which dynamically 
+                                                                generates the HTML and manipulates 
+                                                                the DOM to include the generated HTML for UI display.   </p>    
+                                                        </span>
+                                                    </div>
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Status.</h4> 
+                                                            <p>Developed and closed.
+                                                            </p>    
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="githubSpan">
+                                                            <h4>Repo:</h4> 
+                                                            <a href="https://github.com/Vulcan-Logic/WEB_Udemy_JavaScript">
+                                                                <img src="./assets/img/GitHub-Mark-120px-plus.png" 
+                                                                alt="Github Logo" width="45px" height="auto"/>
+                                                            </a>    
+                                                        </span>
+                                                    </div>
+                                                    <hr />
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sectionCont">
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6 align-items-center">
+                                                        <h4>This web-app was developed to fulfill the requirements of the 
+                                                            React course conducted by The Hong Kong University of Science 
+                                                            and Technology in association with Coursera. 
+                                                            <a href="#rowReact"> Certificate image </a> is 
+                                                            included in the education section. 
+                                                        </h4> 
+                                                            <a href="https://vulcan-logic.github.io/WEB_HKU_React/"> 
+                                                                Demo</a> 
+                                                </div>
+                                                <div class="col-12 col-sm-6  align-items-center justify-content-center">
+                                                    <a href="https://vulcan-logic.github.io/WEB_HKU_React/"> 
+                                                        <img id="gaCertificate" src="./assets/img/react.png" />
+                                                        </a>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Single-page website.</h4> 
+                                                            <p>Developed with React, React-Redux, React-ReactStrap, Node, JSX 
+                                                                & JavaScript ES6 Web-app. MVVC architecture web-app that fetches 
+                                                                data from an API and uses React for dynamic generation 
+                                                                and manipulation of the DOM and the state for UI.</p>
+                                                        </span>
+                                                    </div>
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Status.</h4> 
+                                                            <p>Developed, submitted, peer assessed and closed.
+                                                            </p>    
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="githubSpan">
+                                                            <h4>Repo:</h4> 
+                                                            <a href="https://github.com/Vulcan-Logic/WEB_HKU_React">
+                                                                <img src="./assets/img/GitHub-Mark-120px-plus.png" 
+                                                                alt="Github Logo" width="45px" height="auto"/>
+                                                            </a>    
+                                                        </span>
+                                                    </div>
+                                                    <hr />
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sectionCont">
+                                            <div class="row">
+                                                <div class="col-12 align-items-center">
+                                                        <h4>This full stack web-app was developed to implement a business 
+                                                            function for my family business that is now closed. It was 
+                                                            used to classify items that we made and to generate an SKU 
+                                                            which would be generated based on the class of the item and a unique 
+                                                            number. 
+                                                        </h4> 
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Multi-page web-app.</h4> 
+                                                            <p>Developed with HTML, CSS, JavaScript, Python, Python-Flask(Jinja2). 
+                                                             A web-app that was hosted on Google AppEngine and used Google 
+                                                             DataStore as the database. 
+                                                             API used is deprecated and this project no longer works.  
+                                                            </p>
+                                                        </span>
+                                                    </div>
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Status.</h4> 
+                                                            <p>Developed, used, deprecated and retired.
+                                                            </p>    
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="githubSpan">
+                                                            <h4>Repo:</h4> 
+                                                            <a href="https://github.com/Vulcan-Logic/WEB_flask_inventory_project">
+                                                                <img src="./assets/img/GitHub-Mark-120px-plus.png" 
+                                                                alt="Github Logo" width="45px" height="auto"/>
+                                                            </a>    
+                                                        </span>
+                                                    </div>
+                                                    <hr />
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sectionCont">
+                                            <div class="row">
+                                                <div class="col-12 align-items-center">
+                                                        <h4>This full stack web-app was developed to fulfill the requirements 
+                                                            of a web application development course on Udacity. Certificate 
+                                                            details can be found in my LinkedIn profile. A <a href="#secContact">
+                                                            link to the profile </a>  appears in the contact section of this site. 
+                                                        </h4>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Multi-page web-app.</h4> 
+                                                            <p>Developed with HTML, CSS, JavaScript, Python, Jinja2. 
+                                                             A web-app that was hosted on Google AppEngine and used 
+                                                             Google DataStore as the database. API used is deprecated and this 
+                                                             project no longer works.  
+                                                            </p>
+                                                        </span>
+                                                    </div>
+                                                    <div> 
+                                                        <span>
+                                                            <h4>Status.</h4> 
+                                                            <p>Developed, submitted, peer-assessed, deprecated and retired.
+                                                            </p>    
+                                                        </span>
+                                                    </div>
+                                                    <div>
+                                                        <span class="githubSpan">
+                                                            <h4>Repo:</h4> 
+                                                            <a href="https://github.com/Vulcan-Logic/WEB_flask_Udacity_appEngine">
+                                                                <img src="./assets/img/GitHub-Mark-120px-plus.png" 
+                                                                alt="Github Logo" width="45px" height="auto"/>
+                                                            </a>    
+                                                        </span>
+                                                    </div>
+                                                    <hr />
+                                                </div>
+                                            </div>
+                                        </li>
+                                   </ol>
+                                    <h3 class="secPortfolio">Data Science</h3>
+                                    <h4> Section Under Construction</h4>
+                                </div>
+                            </div>
+                        </section>
+                        <section id="secEducation">
+                            <div class="row sectionHead">
+                                <div class="col-12">
+                                    <h1 class="text-right hMainCol"> Education</h1>
+                                </div>
+                            </div>
+                            <div class="row sectionCont">
+                                <div class="col-12" id="secContEducation">
+                                    <ul class="sectionCont">
+                                        <li class="sectionCont">
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12">
+                                                    <h3>
+                                                        Honours Diploma in Systems Management.
+                                                    </h3>
+                                                    <h4>
+                                                        National Institute of Inforamtion Technology (NIIT), INDIA - 1995. 
+                                                    </h4>    
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p>
+                                                        A two year course that covered introduction to programming, elements of software 
+                                                        engineering and information technology systems analysis, design and implementation. 
+                                                    </p>    
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sectionCont">
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12">
+                                                    <h3>
+                                                        Bachelor of Science (Mathematics Honours).
+                                                    </h3>
+                                                    <h4>
+                                                        University of London - 2007. 
+                                                    </h4>    
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p>
+                                                        Bachelor's degree in mathematics studying calculus, statistics, programming, 
+                                                        real analysis, software engineering, optimisation.
+                                                    </p>    
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sectionCont">
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12 col-sm-6 justify-content-start">
+                                                    <h3>
+                                                        Data Science Specialization. 
+                                                    </h3>
+                                                    <h4>
+                                                        John Hopkins University in association with Coursera - 2018.
+                                                    </h4>    
+                                                </div>
+                                                <div class="col-12 col-sm-6 justify-content-center">
+                                                    <img id="gaCertificate" src="./assets/img/Coursera NX9NMCQ3ZF6J.jpg" />             
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p>
+                                                        A 10 course specialisation offered by John Hopkins University in association with 
+                                                        Coursera. Read R programming, Statistical Inference, Probability, 
+                                                        Regression Models, Machine Learning, Develoing Data Products. 
+                                                        Many of the assignments and course work can be accessed in repositories stored 
+                                                        the GitHub A/c. Some samples of work done in the course have been inclued in 
+                                                        the Portfolio Section above. 
+                                                    </p>    
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sectionCont" id="rowReact">
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12 col-sm-6 justify-content-start">
+                                                    <h3>
+                                                        Certificate in React. 
+                                                    </h3>
+                                                    <h4>
+                                                        The Hong Kong University of Science & Technology - 2020.
+                                                    </h4>    
+                                                </div>
+                                                <div class="col-12 col-sm-6 justify-content-center">
+                                                    <img id="gaCertificate" src="./assets/img/Coursera QBNW59VEBPH4.jpg" />             
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p>
+                                                        A part of the wep-apps specialisation, this course teaches about using the React.js framework for UI dynamic implementation.  
+                                                        A sample of the work done in the course have been showcased in the Portfolio Section above. 
+                                                    </p>    
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="sectionCont">
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12 col-sm-6 justify-content-start">
+                                                    <h3>
+                                                        Certificate in Junior Web Development. 
+                                                    </h3>
+                                                    <h4>
+                                                        Academy Xi in association with Generation Australia - 2021.
+                                                    </h4>    
+                                                </div>
+                                                <div class="col-12 col-sm-6 justify-content-center">
+                                                    <img id="gaCertificate" src="assets/img/JWD3 - Vineet W. Singh.png" />            
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p>
+                                                        A 12 week full-time intensive boot camp designed to help people switching into or starting a career in Web Development.   
+                                                        HTML 5, CSS 3, JavaScript ES6, Bootstrap 4, Data Structures and algorithms and Agile methedologies were covered in this boot camp. 
+                                                        A sample of the work done in the course have been showcased in the Portfolio Section above. 
+                                                    </p>    
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <h3 id="otherCourseInfo"> AND over 30 other courses finished with Digital Equipment Corporation, National Instruments, Coursera, EdX, Udacity, Codacedemy &  Udemy. 
+                                        Details of some courses and achievements can be found in the LinkedIn profile. </h2>
+                                </div>
+                            </div>
+                        </section>
+                        
+                        <section id="secContact">
+                            <div class="row sectionHead">
+                                <div class="col-12">
+                                    <h1 class="text-right hMainCol"> Contact</h1>
+                                </div>
+                            </div>
+                            <div class="row sectionCont" id="contactRow">
+                                <div class="col-12 col-md-4" id="contactImage">
+                                    <img src="assets/img/vineetSm.jpg" alt="picture of Vineet Singh" id="vinnie" />
+                                </div>
+                                <div class="col-12 col-md-8" id="contactDetails"> 
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h4> Phone: 0424-092-540</h4>
+                                    <h4> Address: U 105, 5 Highmoor Av., Bayswater, VIC - 3153, AUSTRALIA</h4>
+                                    <h4> Address: House 1054, Sector 4, Panchkula, Haryana - 134 112, INDIA</h4>
+                                    <h4> I can be contacted through:  <span class="inline-flex align-items-center" >
+                                            <a href="https://www.linkedin.com/in/vineet-singh-389a7b18/"> 
+                                            <img src="./assets/img/LI-Logo.png" alt="LinkedIn Logo" width="110px" height="auto"/>
+                                            </a>                                 
+                                        </span>
+                                    </h4>
+                                    <h4> Samples of my work can be found at: <span class="inline-flex">
+                                        <a href="https://github.com/Vulcan-Logic">
+                                        <img src="./assets/img/GitHub-Mark-120px-plus.png" alt="Github Logo" width="45px" height="auto"/>GitHub.com/Vulcan-Logic
+                                        </a>
+                                    </span></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
-                    <div class="row sectionCont">
-                        <div class="col-12">
-                            <p> With a keen interest in computer programming, I started programming in 1988 and it has been a hobby 
-                                ever since. The very first programs I wrote were written for a GW-BASIC interpreter running on an 
-                                Intel-8088 PC. </p>
-                            <p> Following my hobby, over the next few years, I learnt to programme in COBOL, dBase III+, VP Planner, 
-                                Lotus 123, Oracle SQL + PL/SQL and C. My mathematics degree required me to learn PASCAL while yet 
-                                another educational endeavour required me to learn MATLAB. </p>
-                            <p> While working for my family business, I wrote small programmes in MS-ACCESS & MS-EXCEL to improve 
-                                business functions and I used JAVA (SWING, JDBC) & PostgreSQL to wrtie a small application for 
-                                inventory management. </p>
-                            <p> I also developed an interest in using AUTOCAD for making and managing drawings for the business. 
-                                I moved from AUTOCAD to Pro-Engineer to make 3D models, finally working with CATIA to make hundreds of 
-                                3D models and drawings. Demonstrations by National Instruments in LABVIEW got me interested in that 
-                                side of technology and I attended training courses for LABVIEW. Unfortunately, I have not been able to 
-                                use LABVIEW for a project so far. </p>
-                            <p> Having studied statistics, I developed an interest in data science which led me to the Data Science 
-                                specialization programme conducted by John Hopkins University and Coursera. 
-                                This gave me skills in R programming and using markdown for active documents. 
-                                Data Science is incomplete without machine and deep learning, reading for which introduced me to 
-                                Python, a programming language I have come to appreciate and admire. </p>
-                            <p> I was accepted into the Junior Web Development programme coducted by Academy Xi and Generation 
-                                Australia. This programme has been extremely beneficial for me. Apart from increasing my HTML5, CSS3, 
-                                JavaScript and Agile skills, I have improved upon important behaviourial and soft skills like 
-                                Communication, Collaboration, Adapatability and Personal Responsibility.
-                            <p> A constant learner, I like doing online courses to increase my knowledge and I have many other 
-                                certificates realted to programming (Flask, Node.js, React.js) from Udacity & Coursera.
-                            <p> While I have been writing computer programs as a hobby for many years, 
-                                it was only recently that I decided to become a fulltime software developer. With knowledge of all 
-                                components in all layers of the software technology stack (browser/middleware/databases) required for 
-                                complete web applications, I can write full stack web applications.</p>
-                            <p> With some software engineering knowledge, I am familiar with Agile development methedologies and 
-                                concepts like OOAD, MVC, MVVC etc. 
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <section id="sectionPortfolio">
-                    <div class="row sectionHead">
-                        <div class="col-12">
-                            <h1 class="text-right hMainCol"> Portfolio</h1>
-                        </div>
-                    </div>
-                </section>
-                <section id="sectionEducation">
-                    <div class="row sectionHead">
-                        <div class="col-12">
-                            <h1 class="text-right hMainCol"> Education</h1>
-                        </div>
-                    </div>
-                </section>
-                <section id="sectionContact">
-                    <div class="row sectionHead">
-                        <div class="col-12">
-                            <h1 class="text-right hMainCol"> Contact</h1>
-                        </div>
-                    </div>
-                </section>
+                </div>
             </div>
         </div>
     </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap.native@3.0.0/dist/bootstrap-native.min.js"></script>
 </body>
 </html>

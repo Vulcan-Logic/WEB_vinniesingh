@@ -1,7 +1,6 @@
 body{
     background-image: url("../img/bodyBckgrnd.jpg");
-    object-fit: cover;
-    object-position: center center;
+    background-position: center center;
     background-attachment: fixed;
     margin: 0px;
     padding: 0px;
@@ -19,25 +18,46 @@ li {
     display:flex;
     align-items: center;
     justify-content: center;
-    font-size:1.75rem;
+    font-size:1.65rem;
+    font-weight:1200;
     font-family: "Amatic Sc", cursive;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 a{
-    color:white !important;
+color: blue !important;
+}
+
+a.active {
+    color: darkblue !important;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+a.active:hover{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .row{
     width:100%;
-    display:flex;
+    align-items: center;
 }
+
 
 .hMainCol {
     font-family: "Amatic Sc", cursive;
     font-weight: 800;
-    color: rgba(45, 45, 245,1);
+    color: rgb(0, 0, 255);
 }
 
 .hBannerCol{
@@ -53,20 +73,21 @@ h2.hMainCol{
     font-size:2rem;
 }
 
+
 h1.hBannerCol{
     font-size: 3rem;
-    color: rgba(40,40,150,1);
+    color: blue;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 h2.hBannerCol{
     font-size: 2.75rem;
-    color: rgba(40,40,150,1);
+    color: blue;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 h3.hBannerCol{
-    background-color: rgba(45, 45, 245,0.6);
+    background-color: rgba(0,0,255,0.6);
     font-size: 2.0rem;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     color: white;
@@ -74,43 +95,59 @@ h3.hBannerCol{
     border: 1px solid white;
 }
 
-div#bannerMainCol hr {
-    border-bottom: 2px solid white;
+hr {
+    border-bottom: 2px solid blue;
 }
 
-#bannerLayer {
-    position:fixed;
-    top:0;
-    left:0;
-    z-index: 2;
+#mainRow{
+
 }
 
-#bannerLayerRow{
+#mainCol{
+    width:100vw;
+}
+
+.banner{
+  height: 100vh;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+ 
+.contentMain{
+    width:60%;
+    margin-left:35%;
+    margin-right:5%;
+}
+
+#bannerRow{
     width: 100%;
+    height:100%;
     margin:0px;
-    padding: 0px;
-    height: 100vh;
+    padding:0px;
 }
 
-#bannerMainCol{
-    display:block;
-    width:100%;
+#bannerImageCol{
     height:100%;
+    width:100%;
     background-image: url("../img/bannerBckgrnd.jpg");
     background-size: cover;
-    object-fit: cover;
-    object-position: center center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(45, 45, 245,1);
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left:auto;
-    margin-right:auto;
+    background-position: center center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 4px 40px 0 rgba(0,0,255,1);
+    margin:0px;
+    padding:0px;
 }
+
 
 #bannerHeading{
     margin-left:auto;
     margin-right: auto;
     margin-top:5rem;
+    background-color: rgba(210, 210, 210, 0.8);
+    border-top:1px solid blue;
+    /*border-bottom: 1px solid white;*/
 }
 
 #bannerHeadingCol{
@@ -125,10 +162,10 @@ div#bannerMainCol hr {
     justify-content: center;
     margin-left:auto;
     margin-right:auto;
-    background-color: rgba(45, 45, 245, 0.7);
-    border-top:1px solid white;
-    border-bottom: 1px solid white;
-    margin-top: 1rem;
+    background-color: rgba(210,210,210, 0.8);
+    /*border-top:1px solid white;*/
+    border-bottom: 1px solid blue;
+    /*margin-top: 1rem;*/
 }
 
 #bannerMenuCol{
@@ -152,6 +189,44 @@ div#bannerMainCol hr {
     margin-top:5rem;
 }
 
+#contactImage{
+    display: flex;
+    justify-content: center;
+}
+
+#vinnie{
+    width:200px; 
+    height: auto;
+    object-position: center center;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+
+#contactDetails{
+    display:flex;
+    align-items: center;
+    height:100%;
+}
+
+#contactDetails>div>div>h4{
+    font-family:'Oswald', sans-serif;
+    font-size: 1.5rem;
+}
+
+#contactDetails a{
+    font-family:'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: blue !important;
+    text-decoration: underline;
+}
+
+#contactRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .sectionHead{
     display:block;
     justify-content: center;
@@ -164,24 +239,104 @@ div#bannerMainCol hr {
     margin:0px;
 }
 
+.secPortfolioCol{
+    display:block;
+}
+
+ol.secPortfolio{
+    display: block;
+    list-style-type: upper-roman;
+}
+
+.secPortfolioCol h3  {
+    display:block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: blue;
+}
+
+.secPortfolioCol h4{
+    display: inline;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:darkblue;
+    margin-right: 0.5rem;
+}
+
+.secPortfolioCol h5{
+    display: flex;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:darkblue;
+}
+
+.secPortfolioCol a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+
+.secPortfolio span{
+    align-items:baseline;
+}
+
+span.githubSpan{
+    display: flex;
+    align-items:center;
+}
+
+#secContEducation>ul, #secContEducation>ul>li  {
+    display:block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#secContEducation>ul>li>div>div>h3, #secContEducation>ul>li>h4{
+    color: blue;
+}
+
+a.sectionCont{
+    color: blue!important;
+}
+
 p{
     font-family: 'Oswald', sans-serif;
     font-size:1.1rem;
 }
 
+#otherCourseInfo{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: blue;
+}
+
+#gaCertificate{
+    width:80%;
+    height:auto;
+    object-fit:fill;
+    object-position: center center;
+
+}
 
 /* phone portrait mode */
-@media screen and (min-width:280px) and (max-width:480px) and (max-height:800px) and (orientation:portrait) {
+@media screen and (min-width:280px) and (max-width:480px) and (max-height:850px) and (orientation:portrait) {
     /* need to change bannerLayerRow height to some REM 
        need to change fonts h1 and h2 to smaller fonts
        need to change li a fonts to smaller fonts
        need to change ul display to block */
-       #bannerMainCol{
-           height:15rem;
-           margin:0px;
-           padding:0px;
-       }
-       .nickName, .hRule{
+       .banner{
+        height: 29vh;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+      }
+       
+      .contentMain{
+          margin-left:5%;
+          margin-right:5%;
+          margin-top:29vh;
+          width:90%;
+      }
+
+      .nickName, .hRule{
            display: none;
        }
         #bannerHeading{ 
@@ -211,6 +366,10 @@ p{
        ul{
            display:block;
        }
+
+       #bannerHeading, #bannerMenuRow {
+           background-color: rgba(5,140,250,0.8);
+       }
 }
 /* phone landscape mode */
 /* need to change bannerLayerRow height to some REM 
@@ -239,11 +398,17 @@ p{
     p{
         font-size:1rem;
     }
+    ul{
+        display:block;
+    }
 }
 /* tablet portrait mode  change list display to block*/
 @media screen and (min-width:600px) and (max-width:800px) and (orientation:portrait) {
     li{
         font-size:1.3rem;
+    }
+    ul{
+        display:block;
     }
 }
 
@@ -251,6 +416,9 @@ p{
 @media (min-width:960px) and (max-width:1280px) and (orientation:landscape) {
     li{
         font-size:1.3rem;
+    }
+    ul{
+        display:block;
     }
 }
 /* ipad pro portrait mode  change list display to block*/
@@ -264,11 +432,20 @@ p{
 }
 /* surface duo portrait mode - try to cover in phones portrait itself - done*/
 @media screen and (min-width:540px) and (max-height:720px) and (orientation:portrait) {
-    #bannerMainCol{
-        height:15rem;
-        margin:0px;
-        padding:0px;
-    }
+    .banner{
+        height: 32vh;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+      }
+       
+      .contentMain{
+          margin-top:32vh;
+          width:100%;
+      }
+
     .nickName, .hRule{
         display: none;
     }
@@ -299,6 +476,10 @@ p{
     ul{
         display:block;
     }
+    #bannerHeading, #bannerMenuRow {
+        background-color: rgba(5,140,250,0.8);
+    }
+
 }
 /* surface duo landscape mode -done*/
 @media screen and (min-width:720px) and (max-height:720px) and (min-height:540px) and (max-height:540px) and (orientation:landscape) {
