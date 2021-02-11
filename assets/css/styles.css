@@ -225,6 +225,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    height:95vh;
 }
 
 .sectionHead{
@@ -368,9 +369,22 @@ p{
        }
 
        #bannerHeading, #bannerMenuRow {
-           background-color: rgba(5,140,250,0.8);
+           background-color: rgba(210,210,210,0.8);
        }
 }
+
+@media screen and (min-width:280px) and (max-width:480px) and (max-height:740px) and (orientation:portrait) {
+#bannerHeading{ 
+    margin-top: 1.5rem;
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:480px) and (max-height:680px) and (orientation:portrait) {
+#bannerHeading{ 
+    margin-top: 0.8rem;
+    }
+}
+
 /* phone landscape mode */
 /* need to change bannerLayerRow height to some REM 
        need to change fonts h1 and h2 to smaller fonts
