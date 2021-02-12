@@ -1,3 +1,4 @@
 # WEB_vinniesingh
-Website for profile and portfolio 
+Website for portfolio for programming work done by Vineet W. Singh (Vinnie Singh).
+[Visit](https://www.vinniesingh.me/)  
 
