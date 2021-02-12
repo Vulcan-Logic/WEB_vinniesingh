@@ -6,7 +6,7 @@ body{
     padding: 0px;
 }
 
-ul {
+div#bannerMenuCol>ul {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@ ul {
     padding:0px;
 }
 
-li {
+div#bannerMenuCol>ul>li {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +73,7 @@ img{
 .hMainCol {
     font-family: "Amatic Sc", cursive;
     font-weight: 800;
-    color: rgb(0, 0, 255);
+    color: darkblue;
 }
 
 .hBannerCol{
@@ -92,18 +92,18 @@ h2.hMainCol{
 
 h1.hBannerCol{
     font-size: 3rem;
-    color: blue;
+    color: darkblue;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 h2.hBannerCol{
     font-size: 2.75rem;
-    color: blue;
+    color: darkblue;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 h3.hBannerCol{
-    background-color: rgba(0,0,255,0.6);
+    background-color: rgba(0,0,139,0.8);
     font-size: 2.0rem;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     color: white;
@@ -112,7 +112,7 @@ h3.hBannerCol{
 }
 
 hr {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid darkblue;
 }
 
 #mainRow{
@@ -156,7 +156,7 @@ hr {
     background-image: url("../img/bannerBckgrnd.jpg");
     background-size: cover;
     background-position: center center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 4px 40px 0 rgba(0,0,255,1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 4px 40px 0 rgba(0,0,139,1);
     margin:0px;
     padding:0px;
 }
@@ -167,7 +167,7 @@ hr {
     margin-right: auto;
     margin-top:5rem;
     background-color: rgba(210, 210, 210, 0.8);
-    border-top:1px solid blue;
+    border-top:1px solid darkblue;
     /*border-bottom: 1px solid white;*/
 }
 
@@ -185,11 +185,11 @@ hr {
     margin-right:auto;
     background-color: rgba(210,210,210, 0.8);
     /*border-top:1px solid white;*/
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid darkblue;
     /*margin-top: 1rem;*/
 }
 
-#bannerMenuCol{
+div#bannerMenuCol{
     display:block;
     justify-content: center;
 }
@@ -210,6 +210,37 @@ hr {
     margin-top:5rem;
 }
 
+.portCont{
+    display: block;
+    justify-content: start;
+}
+
+div.portCont>h4{
+    font-family: 'Oswald', sans-serif;
+    color: darkblue;
+}
+
+div.portCont>ol{
+    display: block;
+    justify-content: start;  
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+div.portCont>ol>li{
+    justify-content: start;  
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    color: blue !important;  
+}
+
+div.portCont>ol>li>a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    color: blue !important;  
+    text-decoration: underline;  
+}
+
 #contactImage{
     display: flex;
     justify-content: center;
@@ -221,7 +252,7 @@ hr {
     object-position: center center;
     object-fit: cover;
     border-radius: 5px;
-    border: 2px solid blue;
+    border: 2px solid darkblue;
 }
 
 #contactDetails{
@@ -272,13 +303,13 @@ ul.secPortfolio{
 .secPortfolioCol h2 {
     display:block;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: blue;
+    color: darkblue;
 }
 
 .secPortfolioCol h3  {
     display:block;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: blue;
+    color: darkblue;
 }
 
 .secPortfolioCol h4{
@@ -316,7 +347,7 @@ span.githubSpan{
 }
 
 #secContEducation>ul>li>div>div>h3, #secContEducation>ul>li>h4{
-    color: blue;
+    color: darkblue;
 }
 
 a.sectionCont{
@@ -330,7 +361,7 @@ p{
 
 #otherCourseInfo{
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: blue;
+    color: darkblue;
 }
 
 .siteCertImg{
@@ -382,13 +413,13 @@ p{
         h2.hMainCol{
             font-size:1.6rem;
         }
-        li{
+        div#bannerMenuCol>ul>li{
             font-size:1.3rem;
         }
         p{
             font-size:1rem;
         }
-       ul{
+       div#bannerMenuCol>ul{
            display:block;
        }
        h3{
@@ -468,7 +499,7 @@ p{
     p{
         font-size:1rem;
     }
-    ul{
+    div#bannerMenuCol>ul{
         display:block;
     }
 
@@ -501,10 +532,10 @@ p{
 }
 /* tablet portrait mode  change list display to block*/
 @media screen and (min-width:600px) and (max-width:800px) and (orientation:portrait) {
-    li{
+    div#bannerMenuCol>ul>li{
         font-size:1.3rem;
     }
-    ul{
+    div#bannerMenuCol>ul{
         display:block;
     }
     .siteCertImg{
@@ -514,10 +545,10 @@ p{
 
 /* tablet landcaspe mode  change list display to block*/
 @media (min-width:960px) and (max-width:1280px) and (orientation:landscape) {
-    li{
+    div#bannerMenuCol>ul>li{
         font-size:1.3rem;
     }
-    ul{
+    div#bannerMenuCol>ul{
         display:block;
     }
     .siteCertImg{
@@ -529,10 +560,10 @@ p{
 }
 /* ipad pro portrait mode  change list display to block*/
 @media screen and (min-width:1024px)  and (min-height:1366px) and (orientation:portrait) {
-    li{
+    div#bannerMenuCol>ul>li{
         font-size:1.3rem;
     }
-    ul{
+    div#bannerMenuCol>ul{
         display:block;
     }
 }
@@ -576,13 +607,13 @@ p{
      h2.hMainCol{
          font-size:1.6rem;
      }
-     li{
+     div#bannerMenuCol>ul>li{
          font-size:1.3rem;
      }
      p{
          font-size:1rem;
      }
-    ul{
+     div#bannerMenuCol>ul{
         display:block;
     }
     #bannerHeading, #bannerMenuRow {
