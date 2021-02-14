@@ -1,4 +1,16 @@
+import {addSecPortfolio} from './addSecPortfolioContent.js';
+import {addSecEducation} from './addSecEducationContent.js';
+import {addBannerItems, addNavMenu, addSecProfile, addSecContact} from './addSecContent.js';
+
+
 window.addEventListener('DOMContentLoaded',() => {
+    addSecPortfolio();
+    addSecEducation();
+    addBannerItems();
+    addNavMenu();
+    addSecProfile();
+    addSecContact();
+
     let currentEl=0;
     let deviceOffset=0;
     //get all sections

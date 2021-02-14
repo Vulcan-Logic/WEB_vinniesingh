@@ -1,4 +1,12 @@
+/* 
+    Project: Vinnie's Website
+    Author: Vineet W. Singh 
+    Start Date: 07/02/21
+    Date of last edit: 14/2/21
+*/
+
 body{
+    font-family: 'Open-Sans', sans-serif;
     background-image: url("../img/bodyBckgrnd.jpg");
     background-position: center center;
     background-attachment: fixed;
@@ -48,27 +56,14 @@ section {
     margin-bottom: 2rem;
 }
 
-.imgCol{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 img{
     border: 1px solid black;
     border-radius: 5px;
 }
-
-#lIn1, #lIn2{
-    border:none !important;
-    padding-bottom:0.3rem;
-}
-
 .row{
     width:100%;
     align-items: center;
 }
-
 
 .hMainCol {
     font-family: "Amatic Sc", cursive;
@@ -85,15 +80,14 @@ h1.hMainCol{
     font-size:2.5rem;
 }
 
-h2.hMainCol{
-    font-size:2rem;
-}
-
-
 h1.hBannerCol{
     font-size: 3rem;
     color: darkblue;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h2.hMainCol{
+    font-size:2rem;
 }
 
 h2.hBannerCol{
@@ -102,7 +96,7 @@ h2.hBannerCol{
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-h3.hBannerCol{
+/* h3.hBannerCol{
     background-color: rgba(0,0,139,0.8);
     font-size: 2.0rem;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -110,15 +104,30 @@ h3.hBannerCol{
     border-radius: 5px;
     border: 1px solid white;
 }
+ */
 
 hr {
-    border-bottom: 2px solid darkblue;
+    border-bottom: 1px solid darkblue;
+}
+
+p{
+    font-size:1rem;
+    margin-top: .2rem;
+}
+
+.siteCertImg{
+    width:100%;
+    height:auto;
+    object-fit:fill;
+    object-position: center center;
+    margin:1rem;
 }
 
 #mainRow{
     justify-content: center;
     margin:0px;
     padding:0px;
+    width:100vw;
 }
 
 #mainCol{
@@ -161,14 +170,12 @@ hr {
     padding:0px;
 }
 
-
 #bannerHeading{
     margin-left:auto;
     margin-right: auto;
     margin-top:5rem;
     background-color: rgba(210, 210, 210, 0.8);
     border-top:1px solid darkblue;
-    /*border-bottom: 1px solid white;*/
 }
 
 #bannerHeadingCol{
@@ -184,21 +191,12 @@ hr {
     margin-left:auto;
     margin-right:auto;
     background-color: rgba(210,210,210, 0.8);
-    /*border-top:1px solid white;*/
     border-bottom: 1px solid darkblue;
-    /*margin-top: 1rem;*/
 }
 
 div#bannerMenuCol{
     display:block;
     justify-content: center;
-}
-
-#bannerOtherCol{
-    width:100%;
-    display: flex;
-    justify-content: center;
-    padding:0px;
 }
 
 #contentMainRow {
@@ -210,13 +208,18 @@ div#bannerMenuCol{
     margin-top:5rem;
 }
 
+div.row#rowCont{
+    display: flex;
+    align-items:flex-start;
+}
+
 .portCont{
     display: block;
     justify-content: start;
 }
 
-div.portCont>h4{
-    font-family: 'Oswald', sans-serif;
+div.portCont>h3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     color: darkblue;
 }
 
@@ -241,96 +244,49 @@ div.portCont>ol>li>a{
     text-decoration: underline;  
 }
 
-#contactImage{
-    display: flex;
-    justify-content: center;
-}
-
-#vinnie{
-    width:100%; 
-    height: auto;
-    object-position: center center;
-    object-fit: cover;
-    border-radius: 5px;
-    border: 2px solid darkblue;
-}
-
-#contactDetails{
-    display:flex;
-    align-items: center;
-    height:100%;
-}
-
-#contactDetails>div>div>h4{
-    font-family:'Oswald', sans-serif;
-    font-size: 1.5rem;
-}
-
-#contactDetails a{
-    font-family:'Oswald', sans-serif;
-    font-size: 1.5rem;
-    color: blue !important;
-    text-decoration: underline;
-}
-
-#contactRow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:95vh;
-}
-
 .sectionHead{
     display:block;
     justify-content: center;
     margin:0px;
 }
 
-.sectionCont{
-    display: block;
-    justify-content: center;
-    margin:0px;
+.imgCol{
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 .secPortfolioCol{
     display:block;
 }
 
-ul.secPortfolio{
+ul{
     display: block;
+    list-style-type: none;
 }
 
 .secPortfolioCol h2 {
-    display:block;
+
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: darkblue;
 }
 
 .secPortfolioCol h3  {
-    display:block;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: darkblue;
 }
 
 .secPortfolioCol h4{
-    display: inline;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color:darkblue;
-    margin-right: 0.5rem;
 }
 
-.secPortfolioCol h5{
-    display: flex;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    color:darkblue;
-}
 
 .secPortfolioCol a{
     font-family: 'Oswald', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-decoration: underline;
 }
-
 
 .secPortfolio span{
     align-items:baseline;
@@ -341,22 +297,17 @@ span.githubSpan{
     align-items:center;
 }
 
-#secContEducation>ul, #secContEducation>ul>li  {
-    display:block;
+.secEduRow h3 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-}
-
-#secContEducation>ul>li>div>div>h3, #secContEducation>ul>li>h4{
     color: darkblue;
 }
 
-a.sectionCont{
-    color: blue!important;
+.secEduRow h4{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:darkblue;
 }
-
-p{
-    font-family: 'Oswald', sans-serif;
-    font-size:1.1rem;
+.secEducationHr{
+    border-bottom: 1px dashed black;
 }
 
 #otherCourseInfo{
@@ -364,12 +315,37 @@ p{
     color: darkblue;
 }
 
-.siteCertImg{
-    width:300px;
-    height:auto;
-    object-fit:fill;
-    object-position: center center;
-    margin:1rem;
+
+#secContact{
+    height: 100vh;
+}
+
+#contactRow{
+    display: flex;
+    justify-content: center;
+    height:90%;
+}
+
+#contactDetails{
+    display:flex;
+    align-items: center;
+    height:100%;
+}
+
+#contactDetails>div>div>h4{
+    font-family:'Yanone Kaffeesatz', sans-serif;
+}
+
+#contactDetails a{
+    font-family:'Oswald', sans-serif;
+    font-size: 1.3rem;
+    color: blue !important;
+    text-decoration: underline;
+}
+
+#lIn1, #lIn2{
+    border:none !important;
+    padding-bottom:0.3rem;
 }
 
 /* phone portrait mode */
@@ -441,9 +417,6 @@ p{
         margin-top:2rem;
         width:75%;
        } 
-       #contactRow{
-        height: 50vh;
-    }
 }
 
 @media screen and (min-width:280px) and (max-width:480px) and (max-height:740px) and (orientation:portrait) {
@@ -463,12 +436,6 @@ p{
     #bannerHeading{ 
         margin-top: 0.3rem;
         }
-    #contactRow{
-        height: 90vh;
-    }
-    .siteCertImg{
-        width:220px;
-    }
 }
 
 
@@ -503,32 +470,21 @@ p{
         display:block;
     }
 
-    #vinnie{
-        width:65%;
-       } 
-
-    #contactRow{
-        height: 120vh;
-    }
     h3{
         font-size:1.4rem;
     }
+
     h4{
         font-size:1.2rem;
     }
+
     a {
         font-size:1.2rem;
     }
+    
     #contactDetails>div>div>h4, #contactDetails>div>div>h4>span>a {
      font-size:1.2rem;
     }
-    #contactRow{
-        height: 110vh;
-    }
-    .siteCertImg{
-        width:220px;
-    }
-
 }
 /* tablet portrait mode  change list display to block*/
 @media screen and (min-width:600px) and (max-width:800px) and (orientation:portrait) {
@@ -537,9 +493,6 @@ p{
     }
     div#bannerMenuCol>ul{
         display:block;
-    }
-    .siteCertImg{
-        width:200px;
     }
 }
 
@@ -550,12 +503,6 @@ p{
     }
     div#bannerMenuCol>ul{
         display:block;
-    }
-    .siteCertImg{
-        width:200px;
-    }
-    #contactRow{
-        height: 85vh;
     }
 }
 /* ipad pro portrait mode  change list display to block*/
