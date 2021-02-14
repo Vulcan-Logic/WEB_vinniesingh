@@ -10,6 +10,7 @@ window.addEventListener('DOMContentLoaded',() => {
     addNavMenu();
     addSecProfile();
     addSecContact();
+    document.querySelector(".menuItem#aProfile").classList.add("active");
 
     let currentEl=0;
     let deviceOffset=0;

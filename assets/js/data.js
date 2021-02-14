@@ -56,17 +56,10 @@
     ];
     
     export const profileData=
-    `<p> Computer programming has been one of my pastimes for many years. Starting from writing
-        GW-BASIC programs on DOS for an Intel-8088, I have programmed many packages and languages. 
-        COBOL, SQL, C, Java, R, EXCEL, LABVIEW, MATLAB, Python and JavaScript are a few of the 
-        technologies that I have used since I began programming. 
-    </p>                                        
-    <p> Out of an interest for maths & statistics, I turned to data science which led me to                                         
-        the Data Science Specialization programme conducted by John Hopkins University and 
-        Coursera.                                        
-        This gave me skills in R programming and I practised in using R for analysis and document                                        
-        & web-app creation. Data Science is incomplete without machine and deep learning,                                         
-        reading for which gave me more practice in Python, which is now my preffered language. 
+    `<p> Computer programming has been one of my pastimes for many years. Starting with writing
+        GW-BASIC programs on DOS for an Intel-8088, I have programmed in many packages and languages.
+        COBOL, SQL, C, Java, R, EXCEL, LABVIEW, MATLAB, Python and JavaScript being some of the 
+        them. 
     </p>                                        
     <p> Apart from programming for personal interest, I have used my software & programming skills                                         
         in profession too. Working in the family business, I programmed & customised MS-Office                                         
@@ -81,17 +74,20 @@
         I switched first to Pro-Engineer and then to CATIA. I made quite a few 3D models and                                          
         drawings for use in technical development and manufacturing processes. 
     </p>                                          
-    <p> Demonstrations of LABVIEW by National Instruments got me interested in that                                        
-        side of technology (automation & electronics) and I subsequently attended training courses                                          
-        for LABVIEW. 
-    </p>
-    <p> A constant learner, I have attended online courses on programming in                                          
-        different technologies and I have many certificates from providers like Coursera. 
+    <p> A constant learner, I have attended online courses in Information Technologies and I have 
+        a few certificates from providers like Coursera. 
         Details are available on my profile with <a href="https://www.linkedin.com/in/vineet-singh-389a7b18/"> 
         <img id="lIn2" src="./assets/img/LI-Logo.png" 
         alt="LinkedIn Logo" width="110px" height="auto"/>
     </a>  
-    </p>                                         
+    </p>                                    
+    <p> Out of an interest for maths & statistics, I turned to data science which led me to                                         
+    the Data Science Specialization programme conducted by John Hopkins University and 
+    Coursera.                                        
+    This gave me skills in R programming and I practised in using R for analysis and document                                        
+    & web-app creation. Data Science is incomplete without machine and deep learning,                                         
+    reading for which gave me more practice in Python, which is now my preffered language. 
+    </p>             
     <p> More recently, I was accepted into the Junior Web Development programme conducted by                                          
         Academy Xi and Generation Australia. This programme has been extremely beneficial for me.                                        
         Apart from improving my HTML5, CSS3, JavaScript and Agile skills,                                          

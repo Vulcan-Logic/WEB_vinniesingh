@@ -20,7 +20,7 @@ export const addNavMenu=()=>{
     navListItems.forEach(el=>{
         contentSt+=`
         <li>
-        <a  class="menuItem active" href="#${el.Location}" id="${el.id}"> ${el.Item} </a>
+        <a  class="menuItem" href="#${el.Location}" id="${el.id}"> ${el.Item} </a>
         </li>`;
     });
     contentSt="<ul>" + contentSt + "</ul>";
