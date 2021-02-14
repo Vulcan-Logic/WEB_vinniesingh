@@ -99,22 +99,22 @@
         communication, collaboration and adaptability. 
     </p>
     <p>  My current skill sets include writing code in: <strong> HTML5, CSS3, JavaScript ES6, SQL, Python & R </strong>. 
-    I have used libraries and frameworks like <strong> REACT.js, REACT-Redux, Bootstrap 4, Node.js & Flask </strong>. 
+    I have used libraries and frameworks like <strong> REACT.js, REACT-Redux, Bootstrap 4, Node.js & Flask. </strong> 
     I use git and GitHub extensively for storing, sharing and collaborating on code. I am comfortable in using relational 
     databases like Oracle and PostgreSQL. I can repair and reload Windows & Linux on physical and virtual machines
-    (cloud computing) </p>                                         
+    (cloud computing). </p>                                         
     <p> Enjoying the benefits of a basic software engineering education, I know about systems                                          
         analysis & design methodologies including OOAD. <strong> Familiar with agile software development                                          
         methodologies, I can write full stack web apps and I am looking towards specializing 
-        as a full stack or data science software developer </strong> </p>`;
+        as a full stack or data science software developer. </strong> </p>`;
 
         export const webContentArray = [
         {href:"p1",title: "Vineet Singh's (This) Website"} ,
-        {href:"p2", title: "Multi-page Website, Electronics Repair Hub"},
-        {href:"p3", title: "Single-page Website, Electronics Repair Hub"},
-        {href:"p4", title: "Multi-page Website, Junior Web Development Course"},
-        {href:"p5", title: "ES6 Single-page Website, JavaScript Course"},
-        {href:"p6", title: "React Single-page Website, REACT Course"},
+        {href:"p2", title: "Multi-page website, Electronics Repair Hub"},
+        {href:"p3", title: "Single-page website, Electronics Repair Hub"},
+        {href:"p4", title: "Multi-page website, Junior Web Development Course"},
+        {href:"p5", title: "ES6 single-page website, JavaScript Course"},
+        {href:"p6", title: "React single-page website, REACT Course"},
         {href:"p7", title: "Multi-page full stack web-app, Python-Flask"},
         {href:"p8", title: "Multi-page full stack web-app, Full stack web-app course"}
         ];
@@ -134,11 +134,11 @@
             siteTitle:"www.vinniesingh.me",
             title: "Single Page website for Vinnie Singh Portfolio",
             about: `This project was made to publish my personal profile and portfolio. 
-            This portfolio lists programming tasks and projects
+            <br/> This portfolio lists programming tasks and projects
             that I have undertaken during the recent past and to demonstrate 
-            the two different skill sets that I have been pursuing: Full stack 
-            web application development and data science software development.    
-            Some of the projects were on freelance basis and I gained valuable 
+            the two different skill sets that I have been pursuing: <strong> Full stack 
+            web application development and data science software development. </strong>    
+            <br/>Some of the projects were on freelance basis and I gained valuable 
             experience in implementing them. Other projects/tasks listed 
             in the portfolio are the results of following online courses 
             that I have attended on Coursera, Udemy & Udacity.  
@@ -161,15 +161,16 @@
             status:`
             Currently under development. 
             <br />
-            In the first version, everything has been hardcoded into a single 
+            In the first version, everything was hardcoded into a single 
             index.html page. 
             <br />
-            In the second version, I changed the site to dynamically update 
-            the DOM using JavaScript and content stored as data in JSON format
+            In the second version that is the current version, I changed the 
+            site to dynamically update 
+            the DOM using JavaScript and the content stored as data in JSON format
             in a hard-coded data file. 
             <br /> 
-            An upcoming third version will convert into a
-            full stack REACT web-app, using the framework 
+            An upcoming third version will convert this site into a
+            full stack REACT web-app, using REACT 
             for UI implementation, Flask as the middleware and PostgreSQL as 
             the database engine.`,                                             
             repo:"WEB_vinniesingh",
