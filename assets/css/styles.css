@@ -41,7 +41,7 @@ text-decoration: none;
 a.active {
     color: darkblue !important;
     text-decoration: underline !important;
-    font-weight: 800;
+    font-weight: 600;
 }
 
 a.active:hover{
@@ -113,6 +113,7 @@ hr {
 p{
     font-size:1rem;
     margin-top: .2rem;
+    font-weight: 500;
 }
 
 .siteCertImg{
